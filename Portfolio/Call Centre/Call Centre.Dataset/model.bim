@@ -1,0 +1,242 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.124.1052.0 (23.12)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Call Centre\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Call Centre",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8e9ef951-9480-49bf-bce7-843d36db8b8d",
+            "sourceColumn": "Id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Call Timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "47ddb72b-e2b3-4d76-a1af-5fd875bfabe0",
+            "sourceColumn": "Call Timestamp",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Call-Centres City",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4a574845-052a-4cb1-88de-ee929e9257a0",
+            "sourceColumn": "Call-Centres City",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Channel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3e6393a1-9146-4e46-92be-06ca1661f8d2",
+            "sourceColumn": "Channel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "City",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d2f50491-35bf-4869-9fe9-893c7ac7b4d1",
+            "sourceColumn": "City",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Customer Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1d650679-ccb1-4fad-9166-712a4858a86f",
+            "sourceColumn": "Customer Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Reason",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d45699a9-5ab8-4fd1-95f0-e9c8b7d7fc9b",
+            "sourceColumn": "Reason",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Response Time",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3d45099f-7591-4c89-9106-09c4cf87b175",
+            "sourceColumn": "Response Time",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sentiment",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "03c9b3d5-fb7f-4075-aff1-a75fef980f19",
+            "sourceColumn": "Sentiment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "State",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dcf9201d-36ad-4645-8c53-4358c6ff65c0",
+            "sourceColumn": "State",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Call Duration In Minutes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "47d4b1f8-7d49-45cc-b896-3179cfeebddf",
+            "sourceColumn": "Call Duration In Minutes",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Csat Score",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "34c31c46-1494-4517-87d0-cc0b88f7e4a5",
+            "sourceColumn": "Csat Score",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "713730b2-e9a6-4f14-ab71-3ab360afbfb4",
+        "partitions": [
+          {
+            "name": "Call Centre",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Prywatne\\Power BI\\PBI Portfolio\\2023-12-20 - Call Centre Dashboard\\Call Center_Call Center.csv\"),[Delimiter=\",\", Columns=12, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type with Locale\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"Call Timestamp\", type date}}, \"en-GB\"),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Changed Type with Locale\",{{\"Id\", type text}, {\"Call Timestamp\", type date}, {\"Call-Centres City\", type text}, {\"Channel\", type text}, {\"City\", type text}, {\"Customer Name\", type text}, {\"Reason\", type text}, {\"Response Time\", type text}, {\"Sentiment\", type text}, {\"State\", type text}, {\"Call Duration In Minutes\", Int64.Type}, {\"Csat Score\", Int64.Type}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
